@@ -1,0 +1,45 @@
+# Object Detection
+
+
+cvzone                   # pip install cvzone
+
+ultralytics              # pip install ultralytics                  
+# The main library that is to be used. It downloads YOLO weights as well.
+
+hydra-core               # pip install hydra-core
+
+numpy                    # pip install numpy-1.26.4
+
+matplotlib               # pip install matplotlib
+
+opencv-python            # pip install opencv-python
+
+Pillow                   # pip install pillow
+
+PyYAML                   # pip install pyyaml 
+
+requests                 # pip install requests 
+
+scipy                    # pip install scipy
+
+tqdm                     # pip install tqdm
+
+filterpy                 # pip install filterpy
+
+scikit-image             # pip install scikit-image
+
+lap                      # pip install lap 
+
+
+# for GPU                  pip install tensorflow==2.13
+tensorflow               # pip install tensorflow
+
+
+# make sure torch and torchvision are compatible with each other.              
+# CPU: pip install torch==2.0.0 torchvision==0.15.0 --index-url https://download.pytorch.org/whl/cpu 
+# GPU: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118    
+torch                    # pip install torch
+
+torchvision              # pip install torchvision
+
+torchaudio               # pip install torchaudio

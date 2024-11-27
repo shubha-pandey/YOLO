@@ -11,7 +11,7 @@ img = cv2.resize(img, (600,400))
 # Using default version
 
 # There are different types of weights, the nano, the medium, the large.
-# Nano will bw faster, Medium will be a bit slower and Large will be slower.
+# Nano will be faster, Medium will be a bit slower and Large will be slower.
 # It's based upon us to decide which to use. 
 
 classNames = [
@@ -105,7 +105,7 @@ while True :
     cv2.imshow("Image", frame)
             
     if cv2.waitKey(1) & 0xFF == ord('x') :
-        break;
+        break
 
 
 # This is how webcam is used with the YOLOv8 to detect different objects.
